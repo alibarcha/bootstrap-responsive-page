@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div-for-color{
+    width: 100%;
+    background: #ffffff;
+    background: linear-gradient(180deg,#ffffff 0%, rgb(253,250,252) 20%);
+    background: -webkit-linear-gradient(114deg,#ffffff 0%, rgb(253,250,252) 20%);
+    background: -moz-linear-gradient(114deg,#ffffff 0%, rgb(253,250,252) 20%);
+
+}
+/* header styling */
+.container a{
+    font-family: sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+   
+   
+    
+}
+.container .header-btn{
+    border-color: #754ffe;
+    color: #754ffe;
+   
+}
+.container .header-btn:hover{
+    background-color: #754ffe;
+    color: white;
+
+}
+/* header styling end */
+
+.section-second{
+    margin-top: 15vh;
+   
+}
+.section-second h1{
+    font-weight: bolder;
+    font-size: 65px;
+    padding: 18px 15px;
+    line-height: 75px;
+}
+.section-second ul{
+    padding:15px ;
+}
+.section-second ul li{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section-second ul li i{
+    color: #05c46b;
+}
+.section-second button{
+    color: white;
+    background-color: rgb(99, 67, 216);
+    font-weight: 500;
+    margin: 18px;
+    padding: 12px 18px;
+}
+.section-second a{
+    text-decoration: underline;
+    color:rgb(99, 67, 216) ;
+   
+    padding: 3px;
+}
+.section-second img{
+    width: 100%;
+    
+}
+/* new sec */
+
+.logos-container{
+    /* border: 2px solid red; */
+    margin: 120px auto;
+  
+}
+.container .sub-tittle{
+    font-family: sans-serif;
+}
+
+/* icon section */
+.icons-container{
+    /* border: 2px solid red; */
+    margin: 80px auto;
+}
+.icons-container .icon-span{
+    width: 50px;
+    height: 50px;
+   
+    display: inline-block;
+    background-color: rgb(132, 70, 226);
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    line-height: 10px;
+}
+.icons-container .icon-span i{
+    font-size: 20px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.icons-container h3{
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #18113c;
+    
+}
+.icons-container p{
+    font-weight: 500;
+    color: gray;
+}
+
+/* grap container ************ */
+.grap-container{
+    /* border: 1px solid red; */
+    margin: 120px auto;
+    
+}
+.grap-container img{
+    width: 100%;
+    height: 100%;
+}
+.grap-container span{
+    color: rgb(117, 79, 254);
+    font-family: sans-serif;
+    
+}
+.grap-container h2{
+    font-weight: bolder;
+    line-height: 55px;
+    padding: 10px 0;
+    font-size: 40px;
+    color: rgb(24, 17, 61);
+}
+.grap-container h3{
+    padding: 5px 0;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+.grap-container ul li{
+    padding-top: 15px;
+    font-weight: 500;
+
+}
+.grap-container ul li i{
+    color: #05c46b;
+    padding-right: 8px;
+}
+
+/* gallery-container ****** */
+.gallery-container{
+    /* border: 2px solid red; */
+}
+.gallery-container span{
+    color: rgb(117, 79, 254);
+    font-family: sans-serif;
+    padding: 3px 10px;
+    font-weight: 600;
+
+}
+
+.gallery-container h2{
+    font-weight: bold;
+    line-height: 55px;
+    padding: 5px 10px;
+    font-size: 45px;
+    color: rgb(24, 17, 61);
+}
+.gallery-container h3{
+    padding: 5px 10px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.gallery-container li i{
+    font-size: 25px;
+    color: rgb(132, 70, 226);
+}
+.gallery-container li p{
+    padding-left: 40px;
+    padding-top: -18px;
+    color: gray;
+    font-weight: 400;
+}
+
+/* card section ***************** */
+.card-section{
+    background-color: rgb(24, 17, 60);
+    margin: 90px 0;
+
+}
+.card-section .card-span{
+    padding: 80px 0;
+    padding-top: 60px;
+
+}
+.card-section .tittle{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 18px 0;
+
+}
+.card-section .sub-tittle{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #808e9b;
+  
+    
+}
+/* inner */
+.card-section .card-inner i{
+    font-size: 55px;
+    
+
+}
+.card-section .card-inner .first-icon{
+    color: rgb(0, 98, 255);
+    
+
+}
+.card-section .card-inner .second-icon{
+    color: rgb(255, 122, 89);
+    
+
+}
+.card-section .card-inner .thired-icon{
+    color: rgb(15, 128, 56);
+    
+
+}
+.card-section .card-inner .fourth-icon{
+    color: rgb(224, 30, 90);
+    
+
+}
+.card-section .card-inner .fifth-icon{
+    color: rgb(255, 74, 0);
+    
+
+}
+.card-section .card-inner .sixth-icon{
+    color: rgb(0, 98, 255);
+    
+
+}
+
+.card-section .card-inner h3{
+    color: white;
+    padding: 8px 0;
+    font-size: 25px;
+}
+.card-section .card-inner p{
+    color: gray;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+.card-section button{
+    background-color: rgb(117, 79, 254);
+    font-weight:600;
+    font-size: 13px;
+    
+   
+}
+
+
+/* user feedback container styling */
+.feedback .para{
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+/* product container***************** */
+.product-sec h2{
+    font-size: 45px;
+
+}
+.product-sec h2 p{
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 35px;
+}
+.product-sec .card-div{
+    border-radius: 7px;
+}
+.product-sec .card-div h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.product-sec .card-div .span-1{
+    font-size: 30px;
+}
+.product-sec .card-div ul li{
+    padding-top: 15px;
+    color: gray;
+    font-size: 15px;
+}
+.product-sec .card-div ul li i{
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+/* company-section ************ */
+.company-section{
+    background-color: rgb(24, 17, 60);
+    /* height: 77vh; */
+    margin: 30px 0;
+    width: 100%;
+}
+
+.company-section span{
+    
+    font-weight: bold;
+}
+.company-section h2{
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
+.company-section p{
+    color: rgb(97, 86, 107);
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+
+/* footer section ************ */
+.footer h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer .icon-para{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer i{
+    color: gray;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.footer i:hover{
+    color: blue;
+}
+.footer .nesting-div a{
+    /* padding-top: 70px; */
+    
+    color: gray;
+    
+}
+.footer a:hover{
+    color: blue;
+}
+.footer p{
+    font-size: 15px;
+    color: gray;
+}
+
+/* inner foot */
+.inner-footer span{
+    color: gray;
+    font-size: 17px;
+    font-weight: 15px;
+}
+.inner-footer a{
+    padding-left: 19px;
+    color: gray;
+    font-size: 15px;
+}
